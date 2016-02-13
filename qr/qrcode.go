@@ -16,7 +16,7 @@ func (this Version) PatternSize() int {
 }
 
 func GenerateQRCode(w io.Writer, code string, version Version) error {
-    size := version.PatternSize()
+	size := version.PatternSize()
 	img := image.NewNRGBA(image.Rect(0, 0, size, size))
 	return png.Encode(w, img)
 }

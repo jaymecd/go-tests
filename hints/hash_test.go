@@ -25,7 +25,7 @@ func fetchTZ(tz string) (int, error) {
 }
 
 func ExampleReverse() {
-	table := []string {
+	table := []string{
 		"UTC",
 		"EST",
 		"MST",
@@ -42,7 +42,7 @@ func ExampleReverse() {
 		}
 	}
 
-	// Output: 
+	// Output:
 	// UTC offset: 0
 	// EST offset: -2
 	// MST offset: -7
